@@ -1,0 +1,24 @@
+.bitcoin-details {
+    width: calc(100% + 2px);
+    max-width: calc(100% + 2px);
+    padding: 1.5em;
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+      rgb(255, 255, 255);
+    position: relative;
+    height: 14rem;
+    .asset-values {
+      text-transform: uppercase;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .asset-label {
+      text-transform: uppercase;
+      color: white;
+      font-weight: 700;
+      font-size: 1em;
+      text-align: center;
+    }
+  }
+  

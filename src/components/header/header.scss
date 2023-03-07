@@ -1,0 +1,20 @@
+.navigation-tabs {
+    background-color: white;
+    padding: 16px;
+    .coin-nav {
+      text-align: right;
+    }
+    .exchange-nav {
+      text-align: right;
+    }
+    .swap-nav {
+      text-align: center;
+    }
+    .brand-logo {
+      justify-content: center;
+      display: flex;
+  
+      height: 26px;
+    }
+  }
+  

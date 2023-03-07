@@ -1,0 +1,57 @@
+.tab-segment {
+    margin-top: 0;
+    margin-bottom: 0px;
+    background: rgb(236, 239, 241);
+    padding: 1.5em;
+    position: relative;
+    .tab-container {
+      width: 1127px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block;
+      max-width: 100% !important;
+      
+      .content-table-heading {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .content-table {
+        width: 100%;
+        box-shadow:  0px 2px 15px -3px !important;
+    border: none !important;
+        background: rgb(250, 250, 250);
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500 !important;
+        padding: 0.92857143em 0.78571429em;
+        color: rgba(0, 0, 0, 0.6) !important;
+        border-radius: 5px;
+        margin-top: -10em;
+      }
+      .name-colspan {
+        width: 10rem;
+      }
+      .content-values {
+        border-top: 1px solid rgba(34, 36, 38, 0.1);
+        .asset-value-names {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+    .view-more-btn {
+      // margin: 1rem;
+      display: block;
+      margin: 16px auto;
+      transition: transform 0.2s ease 0s;
+      background-color: rgb(24, 198, 131);
+      color: white;
+      border-radius: 10em;
+      font-size: 1rem;
+      border: none;
+      padding: 0.78571429em 1.5em;
+      font-weight: 700;
+    }
+  }
+  
